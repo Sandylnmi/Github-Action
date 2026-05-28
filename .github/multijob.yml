@@ -11,7 +11,10 @@ jobs:
 
     steps:
       - name: Step 1 - Start
-        run: echo "Job 1 started" "Repository -> ${{ github.repository }}"
+        run: echo "Job 1 started" 
+
+      - name: Show Repository Name  
+        run: "Repository -> ${{ github.repository }}"
 
       - name: Step 2 - Complete
         run: echo "Job 1 completed"
