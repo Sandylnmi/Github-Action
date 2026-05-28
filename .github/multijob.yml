@@ -26,4 +26,4 @@ jobs:
         run: echo "Job 2 started after Job 1"
 
       - name: Step 2 - Complete
-        run: echo "Job 2 completed" "Repository -> ${{ github.repository }}"
+        run: echo "Job 2 completed"
